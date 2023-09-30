@@ -11,3 +11,5 @@ CREATE TABLE `patients` (
   `image` BLOB NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
+
+INSERT INTO INSERT INTO patients (name, address, phone, email, image) VALUES ("test name", "test address", "test phone", "test email", NULL)
